@@ -14,7 +14,7 @@
             <ul class="nav-links">
                 <li><a href="#home">मुख्य पृष्ठ</a></li>
                 <li><a href="#about">हमारे बारे में</a></li>
-                <li><a href="#help">आप कैसे जुड़ सकते हैं</a></li>
+                <li><a href="#help">आप कैसे जुड़ सकते हैं</a></li>
                 <li><a href="#gallery">गैलरी</a></li>
                 <li><a href="#contact">संपर्क करें</a></li>
                 <li><a href="#donate">दान करें</a></li>
@@ -42,13 +42,13 @@
     </section>
     
     <section class="help-section" id="help">
-        <h2 class="section-title">आप कैसे जुड़ सकते हैं</h2>
+        <h2 class="section-title">आप कैसे जुड़ सकते हैं</h2>
         <div class="help-content">
            <h3>रामानन्दी देवी हिन्दू अनाथालय परिवार का हिस्सा बनने के कई तरीके हैं:</h3>
-           <p>स्वयंसेवा (Volunteer ): दैनिक गतिविधियों, ट्यूशन, या विशेष आयोजनों में मदद के लिए अपना समय और कौशल दें।  </p>
-           <p>दान (Donate ): आपका वित्तीय योगदान बच्चों की शिक्षा, भोजन, कपड़े और चिकित्सा ज़रूरतों का सीधे समर्थन करता है।  हर रुपया मायने रखता है।</p>  
-           <p>बात फैलाएं (Spread  the  word ): हमारी कहानी को अपने दोस्तों और परिवार के साथ साझा करें । जागरूगता महत्वपूर्ण है । </p>
-           <p>हमसे मिलें (Visit  Us ): यदि आप इस क्षेत्र में हैं तो हम आपको हमारा काम सीधे तौर से दिखाना पसंद करेंगे (मिलने की व्यवस्था के लिए कृपया हमसे संपर्क करें)। </p>
+           <p>स्वयंसेवा (Volunteer): दैनिक गतिविधियों, ट्यूशन, या विशेष आयोजनों में मदद के लिए अपना समय और कौशल दें।  </p>
+           <p>दान (Donate): आपका वित्तीय योगदान बच्चों की शिक्षा, भोजन, कपड़े और चिकित्सा ज़रूरतों का सीधे समर्थन करता है।  हर रुपया मायने रखता है।</p>  
+           <p>बात फैलाएं (Spread the word): हमारी कहानी को अपने दोस्तों और परिवार के साथ साझा करें । जागरूगता महत्वपूर्ण है । </p>
+           <p>हमसे मिलें (Visit Us): यदि आप इस क्षेत्र में हैं तो हम आपको हमारा काम सीधे तौर से दिखाना पसंद करेंगे (मिलने की व्यवस्था के लिए कृपया हमसे संपर्क करें)। </p>
            <p>आइये इस खूबसूरत विरासत को एक साथ जारी रखें । इन बच्चों के जीवन में आशा की किरण बनने के लिए आपका धन्यवाद । </p>
         </div>
     </section>
@@ -144,18 +144,18 @@
                 </div>
                 <div class="gallery-item">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/facility-2.jpg" alt="परिसर भवन">
-                    <div class="gallery-caption">परिसर भवन</div>
+                    <div class="gallery-caption">परिसर</div>
                 </div>
             </div>
         </div>
 
         <!-- Children's Home Section -->
         <div class="gallery-category">
-            <h3 class="category-title">शिशु गृह</h3>
+            <h3 class="category-title">परिसर</h3>
             <div class="gallery-grid">
                 <div class="gallery-item">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/baby-home-1.jpg" alt="शिशु गृह प्रवेश">
-                    <div class="gallery-caption">शिशु गृह प्रवेश</div>
+                    <div class="gallery-caption">परिसर</div>
                 </div>
             </div>
         </div>
@@ -181,7 +181,7 @@
             <div class="gallery-grid">
                 <div class="gallery-item">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/visitor-db.jpg" alt="प्रधानमंत्री का दौरा">
-                    <div class="gallery-caption">माननीय प्रधानमंत्री का दौरा</div>
+                    <div class="gallery-caption">माननीय अतिथि का दौरा </div>
                 </div>
                 <div class="gallery-item">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/visitor-rajendra-prasad.jpg" alt="डॉ. राजेन्द्र प्रसाद">
@@ -197,7 +197,7 @@
                 </div>
                 <div class="gallery-item">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/visitor-prithviraj-kapur.jpg" alt="पृथ्वीराज कपूर">
-                    <div class="gallery-caption">पथ्वीराज कपूर - अभिनेता</div>
+                    <div class="gallery-caption">पृथ्वीराज कपूर - अभिनेता</div>
                 </div>
                 <div class="gallery-item">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/visitor-lal-bahadur.jpg" alt="लाल बहादुर शास्त्री">
@@ -213,7 +213,7 @@
             <p style="margin: 1rem 0;">बच्चों के जीवन में बदलाव लाने में हमारी मदद करें</p>
             <div class="footer-links">
                 <a href="#about">हमारे बारे में</a>
-                <a href="#help">आप कैसे जुड़ सकते हैं</a>
+                <a href="#help">आप कैसे जुड़ सकते हैं</a>
                 <a href="#gallery">गैलरी</a>
                 <a href="#contact">संपर्क करें</a>
                 <a href="#donate">दान करें</a>
