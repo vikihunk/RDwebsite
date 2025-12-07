@@ -2,12 +2,17 @@
 Ramanandi Devi Anathalaya website
 
 The website is hosted on Hostinger.in. 
-Login to hostinger and create a Wordpress site.
+Buy the domain if it doesn't exist already. Once the payment is made you will be redirected to create a website.
+
+Click on create a Wordpress site.
 1. hpanel->Websites->Create or Add website
 2. Enter admin username/password and website title.
-3. Now you can login to the domain using:
-   https://ramanandidevianathalaya.org/wp-admin
-4. Upload the following folder in zip format to wordpress theme page and activate it.
+3. Click on "Create a blank site".
+4. Enter the domain name that you purchased already. It will install wordpress.
+5. Setup your site from Wordpress dashboard. Install Google Site Kit (not mandatory but good to have).
+6. You can also login to the domain using:
+   https://ramanandidevianathalaya.org/wp-admin or https://ramanandidevihinduanthalaya.com/wp-admin
+7. Upload the following folder in zip format to wordpress theme page and activate it.
 
    
 Create a folder structure as follows (using the files uploaded in the contents folder)
