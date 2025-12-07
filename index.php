@@ -53,7 +53,6 @@
         </div>
     </section>
     
-
     <div class="stats">
         <div class="stat-card">
             <div class="stat-number" id="yearsSince1925">99</div>
@@ -219,6 +218,46 @@
                 <div class="gallery-item">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/visitor-lal-bahadur.jpg" alt="लाल बहादुर शास्त्री">
                     <div class="gallery-caption">लाल बहादुर शास्त्री - भारत के पूर्व प्रधानमंत्री</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="donate-section" id="donate">
+        <h2 class="section-title">दान करें (Donate)</h2>
+        <div class="donate-content">
+            <h3>ऑनलाइन भुगतान जल्द आ रहा है</h3>
+            <p>रामानन्दी देवी हिन्दू अनाथालय को समर्थन देने के लिए आपका धन्यवाद। हम वर्तमान में अपने ऑनलाइन दान पोर्टल को एकीकृत करने पर काम कर रहे हैं ताकि आप आसानी से सुरक्षित रूप से योगदान कर सकें।</p>
+            <p style="margin-top: 1.5rem;">ऑनलाइन भुगतान लिंक तैयार होने पर हम आपको जल्द सूचित करेंगे। आपके सहयोग के लिए धन्यवाद!</p>
+        </div>
+    </section>
+    
+    <section class="contact-section" id="contact">
+        <h2 class="section-title">संपर्क करें (Contact Us)</h2>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <h3>हमसे संपर्क करने के तरीके</h3>
+                <div class="info-item">
+                    <h4>पता (Address)</h4>
+                    <p>रामानन्दी देवी हिन्दू अनाथालय</p>
+                    <p>Anathalaya Road, PO - Nathnagar, Dist-Bhagalpur</p>
+                    <p>बिहार, भारत - 812006</p>
+                </div>
+                <div class="info-item">
+                    <h4>फ़ोन नंबर (Mobile)</h4>
+                    <p>कार्यालय: [8877080361]</p>
+                </div>
+                <div class="info-item">
+                    <h4>ईमेल (Email)</h4>
+                    <p>ramanandidevianathalaya1925@gmail.com</p>
+                </div>
+            </div>
+            
+            <div class="contact-map">
+                <h3>हम कहाँ स्थित हैं</h3>
+                <div class="map-placeholder">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.9714865460764!2d86.92489251007379!3d25.237885329960083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f04a90d2027415%3A0x4b05ae43e4f802e4!2sRamanandi%20Devi%20Hindu%20Anathalaya!5e0!3m2!1sen!2sin!4v1765128013955!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
                 </div>
             </div>
         </div>
