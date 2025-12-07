@@ -56,7 +56,24 @@
 
     <div class="stats">
         <div class="stat-card">
-            <div class="stat-number">99</div>
+            <div class="stat-number" id="yearsSince1925">99</div>
+
+<script>
+    // 1. Get the current year
+    const currentYear = new Date().getFullYear();
+
+    // 2. Define the starting year
+    const startingYear = 1925;
+
+    // 3. Calculate the difference (number of years)
+    const years = currentYear - startingYear;
+
+    // 4. Find the HTML element by its ID
+    const yearElement = document.getElementById('yearsSince1925');
+
+    // 5. Update the content of the HTML element
+    yearElement.textContent = years;
+</script>
             <div class="stat-label">वर्षों की सेवा</div>
         </div>
         <div class="stat-card">
