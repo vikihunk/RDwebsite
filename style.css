@@ -16,6 +16,11 @@ Text Domain: ramanandi-orphanage
     box-sizing: border-box;
 }
 
+/* Add smooth scrolling behavior across the site */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Noto Sans Devanagari', sans-serif;
     line-height: 1.8;
@@ -473,11 +478,110 @@ footer {
     color: #ff6b6b;
 }
 
+/* Donation Section Styles (Coming Soon Placeholder) */
+.donate-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5rem 2rem;
+    background: #fff;
+}
+
+.donate-content {
+    background: #f5f7fa; /* Slightly lighter background than before */
+    padding: 3rem;
+    border-radius: 20px;
+    border: 1px solid #c3cfe2; /* NEW: A subtle border to define the edge */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1); /* Slightly stronger shadow */
+    text-align: center;
+}
+
+.donate-content h3 {
+    color: #ff6b6b; /* Accent color */
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.donate-content p {
+    font-size: 1.15rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
 @media (max-width: 768px) {
     .lightbox-close {
         top: 10px;
         right: 10px;
         color: #fff;
         text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    }
+}
+
+/* --- Contact Section Styles --- */
+.contact-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5rem 2rem;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr; /* Info on left (smaller), Map on right (larger) */
+    gap: 3rem;
+    background: #ffffff;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.contact-info {
+    /* Separator line for aesthetic border */
+    padding-right: 2rem;
+    border-right: 1px solid #e2e8f0;
+}
+
+.contact-info h3, .contact-map h3 {
+    color: #764ba2;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.info-item {
+    margin-bottom: 2rem;
+}
+
+.info-item h4 {
+    color: #667eea;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.info-item p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.contact-map .map-placeholder {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* Responsive adjustments for Contact */
+@media (max-width: 900px) {
+    .contact-grid {
+        grid-template-columns: 1fr; /* Stack columns vertically on smaller screens */
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .contact-info {
+        padding-right: 0;
+        border-right: none;
+        border-bottom: 1px solid #e2e8f0; /* Add separation line at the bottom */
+        padding-bottom: 2rem;
     }
 }
